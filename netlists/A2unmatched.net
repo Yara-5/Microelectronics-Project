@@ -1,0 +1,18 @@
+A2unmatched
+.include MOSFET_models_0p5_0p18-4.inc
+
+V1  vdd  0   1.8
+V2  vin  0   PULSE(0 1.8 0 10p 10p 5n 10n 1)
+
+M2  vo   vin  vdd  vdd  PMOS0P18  w=0.9u   l=0.18u
+M1  vo   vin  0    0    NMOS0P18  w=0.9u   l=0.18u
+
+R1  vo   n1   1k
+C1  n1   0    0.2p
+
+.tran 0.01n 10n
+
+.meas tran tpHL TRIG V(vin) VAL=0.9 RISE=1 TARG V(n1) VAL=0.9 FALL=1
+.meas tran tpLH TRIG V(vin) VAL=0.9 FALL=1 TARG V(n1) VAL=0.9 RISE=1
+
+.end

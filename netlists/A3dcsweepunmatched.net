@@ -1,0 +1,15 @@
+* CMOS Inverter VTC - 0.5um minimum area design
+.include MOSFET_models_0p5_0p18-4.inc
+
+V1 vdd 0 3.3
+V2 vin 0 0
+
+M2 vo vin vdd vdd PMOS0P5 w=1.25u l=0.5u
+M1 vo vin 0   0   NMOS0P5 w=1.25u l=0.5u
+
+R1 vo n1 1k
+C1 n1 0  0.5p
+
+.dc V2 0 3.3 0.01
+
+.end

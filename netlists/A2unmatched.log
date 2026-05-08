@@ -1,0 +1,23 @@
+LTspice 26.0.1 for Windows
+Circuit: D:\Microelectronics-Project\netlists\A2unmatched.net
+Start Time: Fri May  8 12:54:15 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Model "pmos0p18": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Width narrower than recommended for a level 1 MOSFET.
+Model "nmos0p18": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.168 seconds.
+
+Files loaded:
+D:\Microelectronics-Project\netlists\A2unmatched.net
+D:\Microelectronics-Project\netlists\MOSFET_models_0p5_0p18-4.inc
+
+tphl=1.95818726738e-10 FROM 5.00000014909e-12 TO 2.00818726887e-10
+tplh=4.44503632273e-10 FROM 5.01500000002e-09 TO 5.45950363229e-09

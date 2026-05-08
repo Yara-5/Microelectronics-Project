@@ -1,0 +1,5 @@
+* CMOS inverter subcircuit
+.subckt inv vin vo vdd gnd
+M2 vo vin vdd vdd PMOS0P18 w=1.8u l=0.18u
+M1 vo vin gnd gnd NMOS0P18 w=0.9u l=0.18u
+.ends
