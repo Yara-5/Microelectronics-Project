@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: D:\Microelectronics-Project\netlists\mux.net
-Start Time: Fri May  8 14:14:42 2026
+Start Time: Wed May 13 13:49:37 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -11,42 +11,38 @@ Instance "x10:M2": Length shorter than recommended for a level 1 MOSFET.
 Instance "x10:M2": Width narrower than recommended for a level 1 MOSFET.
 Instance "x11:M2": Length shorter than recommended for a level 1 MOSFET.
 Instance "x11:M2": Width narrower than recommended for a level 1 MOSFET.
-Instance "x1:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x1:M2": Width narrower than recommended for a level 1 MOSFET.
 Instance "x1:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x1:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x2:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x2:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x1:M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x1:M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:M3": Width narrower than recommended for a level 1 MOSFET.
 Instance "x2:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x2:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x3:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x3:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x2:M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x2:M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:M3": Width narrower than recommended for a level 1 MOSFET.
 Instance "x3:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x3:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x4:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x4:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x3:M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "x3:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x3:M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "x3:M3": Width narrower than recommended for a level 1 MOSFET.
 Instance "x4:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x4:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x5:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x5:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x4:M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "x4:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x4:M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "x4:M3": Width narrower than recommended for a level 1 MOSFET.
 Instance "x5:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x5:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x6:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x6:M2": Width narrower than recommended for a level 1 MOSFET.
-Instance "x6:M1": Length shorter than recommended for a level 1 MOSFET.
-Instance "x6:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x7:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x7:M2": Width narrower than recommended for a level 1 MOSFET.
-Instance "x7:M1": Length shorter than recommended for a level 1 MOSFET.
-Instance "x7:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x8:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x8:M2": Width narrower than recommended for a level 1 MOSFET.
-Instance "x8:M1": Length shorter than recommended for a level 1 MOSFET.
-Instance "x8:M1": Width narrower than recommended for a level 1 MOSFET.
-Instance "x9:M2": Length shorter than recommended for a level 1 MOSFET.
-Instance "x9:M2": Width narrower than recommended for a level 1 MOSFET.
-Instance "x9:M1": Length shorter than recommended for a level 1 MOSFET.
-Instance "x9:M1": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M2": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M4": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M4": Width narrower than recommended for a level 1 MOSFET.
 Model "nmos0p18": Oxide thickness thinner than recommended for a level 1 MOSFET.
 Instance "x10:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x10:M1": Width narrower than recommended for a level 1 MOSFET.
@@ -54,48 +50,44 @@ Instance "x11:M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "x11:M1": Width narrower than recommended for a level 1 MOSFET.
 Instance "x1:M4": Length shorter than recommended for a level 1 MOSFET.
 Instance "x1:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x1:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x1:M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "x1:M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "x1:M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "x1:M6": Width narrower than recommended for a level 1 MOSFET.
 Instance "x2:M4": Length shorter than recommended for a level 1 MOSFET.
 Instance "x2:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x2:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x2:M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "x2:M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "x2:M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "x2:M6": Width narrower than recommended for a level 1 MOSFET.
 Instance "x3:M4": Length shorter than recommended for a level 1 MOSFET.
 Instance "x3:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x3:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x3:M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "x3:M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "x3:M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "x3:M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "x3:M6": Width narrower than recommended for a level 1 MOSFET.
 Instance "x4:M4": Length shorter than recommended for a level 1 MOSFET.
 Instance "x4:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x4:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x4:M3": Width narrower than recommended for a level 1 MOSFET.
-Instance "x5:M4": Length shorter than recommended for a level 1 MOSFET.
-Instance "x5:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x5:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x5:M3": Width narrower than recommended for a level 1 MOSFET.
-Instance "x6:M4": Length shorter than recommended for a level 1 MOSFET.
-Instance "x6:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x6:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x6:M3": Width narrower than recommended for a level 1 MOSFET.
-Instance "x7:M4": Length shorter than recommended for a level 1 MOSFET.
-Instance "x7:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x7:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x7:M3": Width narrower than recommended for a level 1 MOSFET.
-Instance "x8:M4": Length shorter than recommended for a level 1 MOSFET.
-Instance "x8:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x8:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x8:M3": Width narrower than recommended for a level 1 MOSFET.
-Instance "x9:M4": Length shorter than recommended for a level 1 MOSFET.
-Instance "x9:M4": Width narrower than recommended for a level 1 MOSFET.
-Instance "x9:M3": Length shorter than recommended for a level 1 MOSFET.
-Instance "x9:M3": Width narrower than recommended for a level 1 MOSFET.
+Instance "x4:M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "x4:M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "x4:M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "x4:M6": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M5": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M6": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M6": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M7": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M7": Width narrower than recommended for a level 1 MOSFET.
+Instance "x5:M8": Length shorter than recommended for a level 1 MOSFET.
+Instance "x5:M8": Width narrower than recommended for a level 1 MOSFET.
 Direct Newton iteration succeeded in finding operating point.
-Warning: Simulation tolerance relaxed to achieve convergence from 1.0003564222061059e-07 to 1.0003564222092309e-07 seconds.
-Total elapsed time: 1.236 seconds.
+Total elapsed time: 0.985 seconds.
 
 Files loaded:
 D:\Microelectronics-Project\netlists\mux.net
 D:\Microelectronics-Project\netlists\MOSFET_models_0p5_0p18-4.inc
+D:\Microelectronics-Project\netlists\inv.net
+D:\Microelectronics-Project\netlists\nand3.net
+D:\Microelectronics-Project\netlists\nand4.net
 
-tplh_d0=4.64090826086e-11 FROM 1.00050000001e-08 TO 1.00514090827e-08
-tphl_d0=4.69454816645e-11 FROM 1.50149999999e-08 TO 1.50619454815e-08
-avg_power: AVG((I(V1)*1.8) )=0.000548384656845 FROM 0 TO 3.2e-07
+avg_power: AVG((I(V1)*1.8) )=-1.25569045468e-06 FROM 0 TO 3.2e-07

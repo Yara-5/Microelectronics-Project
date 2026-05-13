@@ -1,0 +1,10 @@
+.subckt nand4 a b c d vo vdd gnd
+M1 vo a vdd vdd PMOS0P18 w=1.8u l=0.18u
+M2 vo b vdd vdd PMOS0P18 w=1.8u l=0.18u
+M3 vo c vdd vdd PMOS0P18 w=1.8u l=0.18u
+M4 vo d vdd vdd PMOS0P18 w=1.8u l=0.18u
+M5 vo a n1  gnd NMOS0P18 w=3.6u l=0.18u
+M6 n1 b n2  gnd NMOS0P18 w=3.6u l=0.18u
+M7 n2 c n3  gnd NMOS0P18 w=3.6u l=0.18u
+M8 n3 d gnd gnd NMOS0P18 w=3.6u l=0.18u
+.ends
