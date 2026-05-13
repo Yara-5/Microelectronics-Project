@@ -1,4 +1,4 @@
-* 4-to-1 MUX using NAND3 + NAND4 with stack compensation - 8 test cases
+* 4x1 MUX
 .include MOSFET_models_0p5_0p18-4.inc
 .include inv.net
 .include nand3.net
@@ -7,16 +7,6 @@
 * Supply
 V1 vdd 0 1.8
 
-* Test cases (40ns each, 320ns total)
-* t(ns)   0    40    80    120   160   200   240   280
-* TC      1    2     3     4     5     6     7     8
-* D0      1    0     1     0     1     0     1     0
-* D1      0    1     0     1     0     1     0     1
-* D2      1    0     1     0     1     0     1     0
-* D3      0    1     0     1     0     1     0     1
-* S0      0    0     1     1     0     0     1     1
-* S1      0    0     0     0     1     1     1     1
-* Expect  1    0     0     1     1     0     0     1
 
 Vd0 d0v 0 PWL(0 1.8 39.99n 1.8 40n 0 79.99n 0 80n 1.8 119.99n 1.8 120n 0 159.99n 0 160n 1.8 199.99n 1.8 200n 0 239.99n 0 240n 1.8 279.99n 1.8 280n 0 320n 0)
 Vd1 d1v 0 PWL(0 0 39.99n 0 40n 1.8 79.99n 1.8 80n 0 119.99n 0 120n 1.8 159.99n 1.8 160n 0 199.99n 0 200n 1.8 239.99n 1.8 240n 0 279.99n 0 280n 1.8 320n 1.8)
@@ -40,6 +30,14 @@ X5 A0 A1 A2 A3 vout vdd 0 nand4
 
 .tran 0.01n 320n
 
+* Propagation delay measurements
+* tpHL: at t=40ns, D0 falls 1->0 while S1=S0=0, output should fall
+.meas TRAN tpHL TRIG V(d0v) VAL=0.9 FALL=1 TARG V(vout) VAL=0.9 FALL=1
+
+* tpLH: at t=80ns, S0 rises 0->1 selecting D1 (which is high), output should rise
+.meas TRAN tpLH TRIG V(s0v) VAL=0.9 RISE=1 TARG V(vout) VAL=0.9 RISE=1
+
+* Average power dissipation
 .meas TRAN avg_power AVG (I(V1)*1.8) FROM=0 TO=320n
 
 .end

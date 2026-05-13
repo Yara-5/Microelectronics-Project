@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: D:\Microelectronics-Project\netlists\mux.net
-Start Time: Wed May 13 13:49:37 2026
+Start Time: Wed May 13 13:58:32 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -81,7 +81,7 @@ Instance "x5:M7": Width narrower than recommended for a level 1 MOSFET.
 Instance "x5:M8": Length shorter than recommended for a level 1 MOSFET.
 Instance "x5:M8": Width narrower than recommended for a level 1 MOSFET.
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.985 seconds.
+Total elapsed time: 0.755 seconds.
 
 Files loaded:
 D:\Microelectronics-Project\netlists\mux.net
@@ -90,4 +90,6 @@ D:\Microelectronics-Project\netlists\inv.net
 D:\Microelectronics-Project\netlists\nand3.net
 D:\Microelectronics-Project\netlists\nand4.net
 
+tphl=2.09894193006e-11 FROM 3.99949999999e-08 TO 4.00159894192e-08
+tplh=4.00306148234e-08 FROM 7.99949999999e-08 TO 1.20025614823e-07
 avg_power: AVG((I(V1)*1.8) )=-1.25569045468e-06 FROM 0 TO 3.2e-07
